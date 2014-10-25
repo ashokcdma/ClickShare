@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010-present Facebook.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">MobilePhotoBooth</string>
+    <string name="app_name_blank"></string>
+    <string name="app_settings">Settings</string>
+    <string name="app_desc">Check out Hackbook for Android to learn how you can make your android apps social using Facebook Platform.</string>
+    <string name="app_action">I am using the Hackbook for Android</string>
+    <string name="request_message">Learn how to make your android apps social.</string>
+    <string name="request">Request!</string>
+    <string name="upload">Upload Photo</string><string name="post">Wall Post!</string>
+    <string name="delete">Delete Post</string>
+    <string name="no_login">Graph API Explorer</string>
+    <string name="get_permissions">Get Permissions</string>
+    <string name="access_token">Access Token:</string>
+    <string name="graph_domain">https://graph.facebook.com/</string>
+    <string name="submit">Submit</string>
+    <string name="label_output">Output:</string>
+    <string name="show_metadata">Show metadata</string>
+    <string name="show_picture">Show picture</string>
+    <string name="view_url">URL</string>
+    <string name="target_url">Target URL:</string>
+    <string name="exception">Exception: </string>
+    <string name="tip_label">Tip:</string>
+    <string name="error">Error</string>
+    <string name="facebook_error">Facebook Error: </string>
+    <string name="api_response">Api Response:</string>
+    <string name="view_source">View Source</string>
+    <string name="view_post">View Post</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="source_code">Source Code:</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="upload_progress">Uploading to Facebook...</string>
+    <string name="settings_progress">Loading. Please wait...</string>
+    <string name="view_photo">View Photo</string>
+    <string name="hide_photo">Hide Photo</string>
+    <string name="tag_photo">Tag Photo</string>
+    <string name="email_photo">Email Photo</string>
+    <string name="graph_button">Graph API</string>
+    <string name="fql_button">FQL Query</string>
+    <string name="source_tag">Source tag:</string>
+    <string name="permission_source_tag">Source tag: \"perms_tag\"</string>
+    <string name="Graph_FQL_title">Graph API or FQL Query?</string>
+    <string name="Graph_FQL_msg">Get friends using Graph or FQL Query?\n\nWith FQL query you can sort the list by names, whereas with Graph list will be ordered by UID and can\'t be changed.</string>
+    <string name="can_post_on_wall_title">Post on friend\'s wall</string>
+    <string name="can_post_on_wall">Friends list fetched. You can post on friend\'s wall by clicking on the item.</string>
+    <string name="ok">OK</string>
+    <string name="post_on_wall_title">Post on Wall?</string>
+    <string name="post_on_wall">Would you like to post on %1$s\'s wall</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string  name="get_fields">Get Fields</string>
+    <string name="fields">Fields</string>
+    <string name="connections">Connections</string>
+    <string  name="checkin">Check-in</string>
+    <string name="cancel">Cancel</string>
+    <string name="user">User Data</string>
+    <string name="friend">Friends Data</string>
+    <string name="extended">Extended</string>
+    <string name="gallery_remote_title">Upload from gallery or remote?</string>
+    <string name="gallery_remote_msg">Upload picture from phone\' gallery or remote server?</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="remote_button">Remote</string>
+    <string name="get_location">Get Location?</string>
+    <string name="get_default_or_new_location">Get current location or use Times Square as the location?</string>
+    <string name="current_location_button">Current Location</string>
+    <string name="fetching_current_permissions">Fetching current permissions...</string>
+    <string name="explorer_message">Also, checkout the web-version of the <a href="http://developers.facebook.com/tools/explorer">Graph API Explorer tool</a></string>
+    <string name="nearby_places">Fetching nearby places...</string>
+    <string name="times_square_button">Times Square</string>
+    <string name="check_in_title">Check-in?</string>
+    <string name="permissions">Permissions</string>
+    <string name="back_parent">Back to parent</string>
+    <string name="fields_and_connections">Fields \u0026 Connections</string>
+    <string name="permissions_request">Select Permissions:</string>
+    <string name="permission_detail">Checkout <a href="https://developers.facebook.com/docs/authentication/permissions/">permissions reference doc</a></string>
+    <string name="fetching_location">Fetching Location...</string>
+    <string name="check_in_at">Would you like to check-in at %1$s?</string>
+    <string name="post_tip">\'read_stream\' permission is required to view and delete the post.\n\nUse SDK dialogs to publish stories or post on friends wall. <a href="https://developers.facebook.com/docs/reference/dialogs">More info</a>\n\n<a href="https://developers.facebook.com/docs/reference/api/Comment">Like and Comment on a post</a></string>
+    <string name="photo_tip">Photos are by default uploaded to the app\'s album. Specify album_id to upload to specific album. E.g. https://graph.facebook.com/{album_id}/photos.\n\nMore Info: https://developers.facebook.com/docs/reference/api/photo</string>
+    <string name="fqlquery">Enter FQL Query:</string>
+    <string name="enable_gps_title">Enable GPS</string>
+    <string name="enable_gps">Please enable GPS to get nearby places and check-in</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="refresh_token_title">Refresh Token</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="refresh_button_pending">Refreshing…</string>
+    <string name="refresh_token_tip">In most cases the access token should be refreshed silently when the application is running (for example see Hackbook onResume method).</string>
+    <string name="refresh_token_binding_error">Binding to the Facebook Android Application failed (is it installed?).</string>
+    <string name="access_token_label">Current access token:</string>
+    <string name="access_token_expires_label">Token expires at:</string>
+
+    <string name="intro">SAY CHEESE AND CATCHA!</string>
+    <string name="picture">Picture</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_streams">Events</string>
+    <string name="capture">Launch Camera</string>
+    <string name="app_id">147826712064440</string>
+    <string name="upload_caption"></string>
+    <string name="no_internet_title">Internet Connection</string>
+    <string name="no_login_title">Settings Error</string>
+    <string name="no_internet">You don\'t have internet connection.</string>
+    <string name="album_error_title">Album Settings Error</string>
+    <string name="no_log_in">Please login to facebook first</string>
+    
+    <string name="inline_preferences">Email Settings</string>
+    <string name="title_checkbox_preference">Allow Sending Email after every photo click</string>
+    <string name="summary_checkbox_preference">Sends mail after every facebook upload</string>
+    
+    <string name="dialog_based_preferences">Facebook Album Settings</string>
+    <string name="title_edittext_preference">Add Captions</string>
+    <string name="summary_edittext_preference">Every photo will be uploaded with this caption</string>
+    <string name="dialog_title_edittext_preference">Enter Caption</string>
+    
+    <string name="email_id_preference">Add Email ID</string>
+    <string name="summary_id_preference">Default email ID for sending the photo</string>
+    <string name="dialog_email_preference">Enter valid email ids with ; separated.</string>
+	
+    <string name="fb_title_checkbox_preference">Allow Facebook Upload</string>
+    <string name="fb_summary_checkbox_preference">Enable uploading photo to facebook for every photo click</string>
+    <string name="upload_default_page">me</string>
+    
+    <string name="title_pageedittext_preference">Enter Facebook Page ID</string>
+    <string name="summary_pageedittext_preference">Every photo will be uploaded to this page</string>
+    <string name="dialog_title_pageedittext_preference">Enter a valid facebook page</string>
+    
+    <string name="settings_complete_title">PHOTOBOOTH IS READY TO USE</string>
+    <string name="settings_complete_msg">You can upload about 1000 photos per album</string>
+    <string name="settings_noAlbum_msg">No Album found. All photos will be uploaded to your wall</string>
+     
+    <string name="settings_error_title">PHOTOBOOTH ERROR</string>
+    <string name="settings_error_msg">Photobooth not finding any page associated with your account. All photos will be uploaded to your wall.</string>
+    <string name="settings_album_selected">ALBUM SELECTED : </string>
+    <string name="email_body">This Photo uploaded via PhotoBooth on : </string>
+    <string name="logout_title">LOG OUT WARNING !!!</string>
+    <string name="complete_logout_msg">If Facebook App installed in this device, Go to Facebook App and Log Out there for complete Log Out.</string>
+    
+    <string name="hellonfc">Help to install PhotoBooth via NFC\n</string>
+    <string name="hellonfcDesc">Keep this device close to another NFC supported Android device and touch the screen when asked.\n\nThe same application will be installed or launched in other device.</string>
+    <string name="menu_promote">Promote via NFC</string>
+    
+        <string name="change_locale">Change Locale</string>
+    <string name="list_moments_title">Touch a moment to delete</string>
+    <string name="send_interactive_button_name">Send Interactive Post</string>
+    <string name="sign_in_profile_label">profile scope</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke access</string>
+    <string name="share_title">Prefill Text (optional)</string>
+    <string name="share_prefill_text">Welcome to the Google+ platform.</string>
+
+    <string name="default_status"/>
+    <string name="greeting_status">Welcome, %s.</string>
+    <string name="greeting_status_sign_in_required">Sign-in required</string>
+    <string name="greeting_status_error">Error signing in: %s.</string>
+    <string name="loading_status">Loading…</string>
+    <string name="signing_in_status">Signing in with Google+.</string>
+    <string name="signed_in_status">Signed in as \"%s\".</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="signed_out_status">Signed out.</string>
+    <string name="revoke_access_status">Revoked access.</string>
+    <string name="revoke_access_error_status">Unable to revoke access.</string>
+
+    <string name="plus_write_moment_status">Saving moment</string>
+    <string name="plus_write_moment_status_success">Write moment succeeded</string>
+    <string name="plus_write_moment_status_cached">Write moment cached</string>
+    <string name="plus_write_moment_status_auth_error">Sign in is required</string>
+    <string name="plus_write_moment_status_error">Internal error</string>
+
+    <string name="plus_remove_moment_status">Removing moment</string>
+
+    <string name="plus_one_small_name">Small +1 button</string>
+    <string name="plus_one_medium_name">Medium +1 button</string>
+    <string name="plus_one_tall_name">Tall +1 button</string>
+    <string name="plus_one_standard_name">Standard +1 button</string>
+    <string name="plus_one_standard_ann_name">Standard +1 button (with inline annotation)</string>
+
+    <string name="plus_example_deep_link_id">/+/mobile/android/</string>
+    <string name="plus_example_deep_link_url">
+        https://developers.google.com/+/mobile/android/
+    </string>
+    <string name="plus_generic_error">Sign in with Google is not available.</string>
+    <string name="progress_message">Signing in to Google&#8230;</string>
+    
+    
+    
+        <string name="app_label">Todo.txt</string>
+    <string name="added_task">Added tasks</string>
+    <string name="add_task_failed">Could not add task</string>
+    <string name="add_empty_task">Please enter task</string>
+    <string name="updated_task">Updated task</string>
+    <string name="update_task_failed">Could not update task</string>
+    <string name="sort">Sort</string>
+    <string name="sort_dialog_header">Sort tasks</string>
+    <string name="filter">Filter</string>
+    <string name="main_no_items">No tasks to display.</string>
+    <string name="set_preferences">Settings</string>
+    <string name="preferences">Settings</string>
+    <string name="sync">Sync</string>
+    <string name="search">Search</string>
+    <string name="refresh">Refresh</string>
+    <string name="add">Add</string>
+    <string name="addtask">Add tasks</string>
+    <string name="quickfilter">Quick filter</string>
+    <string name="nocontextsprojectsfilter">There are no contexts or projects in your todo.txt to filter on.</string>
+    <string name="updatetask">Update task</string>
+    <string name="done">Complete</string>
+    <string name="priority">Prioritize</string>
+    <string name="update">Update</string>
+    <string name="share">Share</string>
+    <string name="add_to_calendar">Schedule</string>
+    <string name="calendar_title">Todo.txt reminder</string>
+    <string name="archive">Archive</string>
+    <string name="unComplete">Undo complete</string>
+    <string name="swipe_action_complete">Completed task.</string>
+    <string name="swipe_action_unComplete">Marked task incomplete.</string>
+
+    <string name="close">Close</string>
+    <string name="clear">Clear</string>
+    <string name="selected">selected</string>
+    <string name="areyousure">Are you sure?</string>
+    <string name="tasktexthint0">Draft chapter 1 +Novel @typewriter\nCall literary agent @phone</string>
+    <string name="tasktexthint1">Learn to code +SelfEducation\nBuild a killer app @computer</string>
+    <string name="tasktexthint2">Take the road less traveled @Woods\nMake all the difference +Life</string>
+    <string name="tasktexthint3">Schedule chain mail fitting @castle\nSharpen sword +SelfPreservation</string>
+    <string name="tasktexthint4">Complete weekly review +GTD\nAchieve mind like water +GTD</string>
+    <string name="add_task_help">Enter a project into your task using the format +YourProject or a context using @YourContext.\n\n<b>Projects</b> start with a + sign and contain no spaces, like +WebsiteRedesign or
+		+Novel.\n\n<b>Contexts</b> (where or with what you will complete a task) start with an @ sign, like @phone or
+		@GroceryStore.</string>
+    <string name="addcontextproject">Add @context or +project</string>
+    <string name="assignpriority">Prioritize this task</string>
+    <string name="filterbycontextproject">Filter by @context or +project</string>
+    <string name="taskadded">Added task to todo.txt</string>
+
+    <!-- settings -->
+    <string name="auto_archive_pref_title">Auto archive</string>
+    <string name="auto_archive_pref_summary">Automatically archive complete tasks to done.txt.</string>
+    <string name="archive_now_title">Archive tasks</string>
+    <string name="archive_now_explainer">Move completed tasks to done.txt? This cannot be undone.</string>
+    <string name="dropbox_logout_pref_title">Log out</string>
+    <string name="dropbox_logout_pref_summary">Disconnect from Dropbox.</string>
+    <string name="dropbox_logout_explainer">Are you sure you wish to log out of Dropbox?</string>
+    <string name="dropbox_logout_warning">You have local changes to your todo.txt file! If you log out, they will be lost!</string>
+    <string name="todo_path_title">File location</string>
+    <string name="todo_path_summary">The Dropbox folder where todo.txt is stored.</string>
+    <string name="todo_path_warning">You have local changes to your todo.txt file! If you change the file location, they will be lost!</string>
+    <string name="todo_path_warning_override">I\'m feeling dangerous!</string>
+    <string name="todo_path_prev_folder">… Up to %s</string>
+    <string name="todo_path_add_new">Add new …</string>
+    <string name="todo_path_empty">Failed to load folder list from Dropbox</string>
+    <string name="todo_path_default">/todo</string>
+    <string name="dropbox_settings_header">Dropbox</string>
+    <string name="todotxt_settings_header">todo.txt</string>
+    <string name="about_settings_header">About</string>
+    <string name="prepend_date_pref_title">Date new tasks</string>
+    <string name="prepend_date_pref_summary">Automatically add creation date to new tasks.</string>
+    <string name="periodic_sync_pref_title">Sync automatically</string>
+
+    <!-- sync dialog -->
+    <string name="sync_dialog_title">Manual Sync</string>
+    <string name="sync_dialog_msg">Do you want to upload or download your todo.txt file?</string>
+    <string name="sync_dialog_upload">Upload to Dropbox</string>
+    <string name="sync_dialog_download">Download to device</string>
+    <string name="sync_upload_message">Uploading todo.txt…</string>
+    <string name="sync_download_message">Downloading todo.txt…</string>
+    <!-- sync conflict dialog -->
+    <string name="sync_conflict_dialog_title">File Conflict</string>
+    <string name="sync_conflict_dialog_msg">Oops! There is a newer version of your todo.txt file in Dropbox. \nDo you want to upload your local changes, or download the Dropbox version?</string>
+    <!-- login -->
+    <string name="welcome_message">Welcome to Todo.txt</string>
+    <string name="login_screen_button">Connect to Dropbox</string>
+    <string name="logout_screen_button">Logout Dropbox</string>
+    <!-- delete -->
+    <string name="delete_task_title">Delete task</string>
+    <string name="delete_task_message">This cannot be undone. Are you sure?</string>
+    <string name="delete_task_confirm">Delete</string>
+    <!-- search -->
+    <string name="search_hint">Search todo.txt</string>
+    <!-- filter tabs -->
+    <string name="filter_tab_priorities">Priority</string>
+    <string name="filter_tab_projects">Project</string>
+    <string name="filter_tab_contexts">Context</string>
+    <string name="filter_tab_search">Keyword</string>
+    <!-- title bar changes -->
+    <string name="title_search_results">Search term: </string>
+    <string name="title_filter_applied">Filtered by: </string>
+    <string name="add_task_priority_btn">Priority</string>
+    <string name="add_task_context_btn">Context</string>
+    <string name="add_task_project_btn">Project</string>
+    <string name="add_task_help_btn">Help</string>
+    <string name="priority_prompt">Priority</string>
+    <string name="project_prompt">Project</string>
+    <string name="context_prompt">Context</string>
+    <string name="refine">Refine</string>
+    <string name="separator">Separator</string>
+    <string name="contextproject_prompt">Contexts and projects</string>
+
+    <!-- launcher shortcut -->
+    <string name="shortcut_addtask_name">Add Task</string>
+    <!-- share -->
+    <string name="share_addtask_name">Add to Todo.txt</string>
+    <string name="share_subject">Todo.txt task</string>
+
+    <!-- online/offline toasts -->
+    <string name="toast_login_notconnected">Cannot log in:\nNo internet connection.</string>
+    <string name="toast_notconnected">No internet connection: Cannot sync with Dropbox right now.</string>
+
+    <!-- Relative Dates -->
+    <string name="dates_days_ago">%d days ago</string>
+    <string name="dates_one_day_ago">1 day ago</string>
+    <string name="dates_today">today</string>
+    <string name="dates_months_ago">%d months ago</string>
+    <string name="dates_one_month_ago">1 month ago</string>
+
+    <!-- contextual action bar progress and error messages -->
+    <string name="progress_uncomplete">Marking task incomplete</string>
+    <string name="progress_complete">Marking task complete</string>
+    <string name="progress_archive">Archiving tasks</string>
+    <string name="progress_delete">Deleting</string>
+    <string name="progress_prioritize">Prioritizing tasks</string>
+    <string name="confirm_archive">Archived completed tasks</string>
+    <string name="select_priority">Select priority</string>
+    <string name="error_prioritize">Could not prioritize tasks</string>
+    <string name="error_uncomplete">Could not mark tasks as not completed</string>
+    <string name="error_complete">Could not complete tasks</string>
+    <string name="error_delete">Could not delete tasks</string>
+    <string name="error_archive">Could not archive tasks</string>
+    <string name="wait_progress">Please wait&#8230;</string>
+
+    <!-- pull-to-refresh -->
+    <string name="pull_to_refresh">Pull to refresh</string>
+    <string name="syncing">Syncing with Dropbox…</string>
+
+    <!-- path activity -->
+    <string name="discard">Discard</string>
+	<string name="dropbox_consumer_key">db-t60oa2alazog7se</string>
+	<string name="dropbox_consumer_secret">titcztgmb9xl2xe</string>
+	
+	
+    <string name="action_settings">Settings</string>
+    <string name="empty"></string>
+    <string name="setting">Settings</string>
+    <string name="yixin">Ashok</string>
+    <string name="group">Group</string>
+    <string name="nearby">Near By</string>
+    <string name="listview">List</string>
+    <string name="app_about">About</string>
+    <string name="home">Home</string>
+    <string name="learn_how">Learn how</string>
+    <string name="my_alpha">My Uploads</string>
+    <string name="my_alpha_cap">MY ALPHAS</string>
+    <string name="share_cap">SHARE</string>
+	<string name="help">Help</string>
+	<string name="try_alpha">Login Options</string>
+	
+</resources>

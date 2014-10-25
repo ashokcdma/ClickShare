@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple"
+    android:orientation="vertical" >
+
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:padding="6dip"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+    
+        <ImageView
+            android:id="@+id/user_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dip" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_pic" />
+        
+	    <com.facebook.widget.LoginButton
+	        android:id="@+id/authButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_alignBottom="@id/user_pic"
+	        android:layout_alignParentRight="true"
+	        />
+
+            <Button
+                android:id="@+id/dropboxLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/dropbox_logo"
+                android:text="@string/login_screen_button"
+                android:layout_toLeftOf="@id/authButton"/>
+	    
+    <ImageButton
+	        android:id="@+id/albumButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_alignBottom="@id/user_pic"
+	        android:layout_alignParentLeft="true"
+        	android:src="@drawable/icon_album_selected"        
+         />
+        <TextView
+            android:id="@+id/albumSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/albumButton"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+    
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/photobooth_img_4"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:layout_marginLeft="40dip"
+	    >
+    
+	    <LinearLayout
+	        android:id="@+id/Photo_layout" 
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:visibility="invisible">    
+		    
+	    	<ImageButton
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:src="@drawable/photobooth_img_5"
+		        android:layout_weight="1"
+		        android:background="@android:color/transparent" />
+	    	
+	    	<ImageView
+		        android:layout_width="fill_parent"
+		        android:layout_height="30dip"
+		        android:layout_weight="1"
+		        android:gravity="center" />
+	    	
+		    <ImageView 
+			    android:id="@+id/picture"
+			    android:layout_weight="1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/camera_button1"/>
+		</LinearLayout>
+		<ImageButton
+	        android:id="@+id/capture_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/camera_button"
+	        android:background="@android:color/transparent"
+	        android:layout_weight="1"/>
+
+		<ImageButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@android:color/transparent"
+	        />
+		<ImageButton
+	        android:id="@+id/help"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/fb_app_help"
+	        android:background="@android:color/transparent"
+	        />
+	    
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" />
+    
+    
+</LinearLayout>

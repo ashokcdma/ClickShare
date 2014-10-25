@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="sense_pref_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Select Album">
+        <ListPreference android:entries="@array/albumNames" android:title="Album List"
+			android:key="pref_album_name" android:entryValues="@array/albumValues" 
+			android:summary="Choose the Album to which Phootobooth will upload all photos"/>
+    </PreferenceCategory>
+</PreferenceScreen>

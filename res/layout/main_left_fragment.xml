@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+		<include
+            android:id="@+id/profileBtnLayout"
+            layout="@layout/toolbox_item_profile" />
+		<View 
+		    android:layout_height="1dp"
+		    android:layout_width="fill_parent"
+		    android:layout_marginBottom="40dp"
+		    android:background="#333333"/>
+        <include
+            android:id="@+id/homeBtnLayout"
+            layout="@layout/toolbox_item_home" />
+
+        <include
+            android:id="@+id/learnHowBtnLayout"
+            layout="@layout/toolbox_item_learn_how" />
+        
+        <include
+            android:id="@+id/myAlphaBtnLayout"
+            layout="@layout/toolbox_item_myuploads" />
+
+         <include
+            android:id="@+id/shareBtnLayout"
+            layout="@layout/toolbox_item_share" />
+        
+        <include
+            android:id="@+id/helpBtnLayout"
+            layout="@layout/toolbox_item_help" />
+
+		<include
+            android:id="@+id/tryAlphaBtnLayout"
+            layout="@layout/toolbox_item_tryalpha" />
+    </LinearLayout>
+
+</ScrollView>

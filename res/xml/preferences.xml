@@ -1,0 +1,40 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+            android:title="@string/dialog_based_preferences">
+
+        <CheckBoxPreference
+                android:key="fb_checkbox_preference"
+                android:title="@string/fb_title_checkbox_preference"
+                android:summary="@string/fb_summary_checkbox_preference" 
+                android:defaultValue="true" />
+        
+        
+        <EditTextPreference
+                android:key="pref_caption"
+                android:title="@string/title_edittext_preference"
+                android:summary="@string/summary_edittext_preference"
+                android:dialogTitle="@string/dialog_title_edittext_preference" />
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+            android:title="@string/inline_preferences">
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="@string/title_checkbox_preference"
+                android:summary="@string/summary_checkbox_preference" 
+                android:defaultValue="true" />
+        
+        <EditTextPreference
+                android:key="pref_email_id"
+                android:inputType="textEmailAddress"
+                android:title="@string/email_id_preference"
+                android:summary="@string/summary_id_preference"
+                android:dialogTitle="@string/dialog_email_preference" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

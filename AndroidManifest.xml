@@ -1,0 +1,102 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.debasmita.clickshare"
+    android:versionCode="10"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+	<!-- Near field communications permissions -->
+
+    <uses-permission android:name="android.permission.NFC" />
+	<uses-feature android:name="android.hardware.nfc" android:required="false" />
+    
+    <application
+        
+        android:name="com.todotxt.todotxttouch.TodoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/ThemeSelector">
+        
+        <activity
+            android:name="com.debasmita.clickshare.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <data android:scheme="db-t60oa2alazog7se" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="com.xchanging.slidemenu.GlobalMenuActivity"
+                  android:label="@string/app_name">
+            
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+         
+        <activity android:name="com.facebook.LoginActivity"
+                  android:label="@string/app_name" 
+                  android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.xchanging.settings.SettingsActivity"
+                  android:label="@string/app_settings" 
+                  android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.xchanging.settings.AlbumListPrefActivity"
+                  android:label="@string/app_settings" 
+                  android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.xchanging.settings.LowerVersionSettingsActivity"
+                  android:label="@string/app_settings" 
+                  android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.xchanging.settings.PrefsActivity" 
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+            	<category android:name="android.intent.category.PREFERENCE" />
+        	</intent-filter>
+        </activity>
+        
+        <activity android:name="com.xchanging.nfc.SharePhotoBooth" 
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:screenOrientation="landscape">
+        </activity>
+        
+        
+        <activity android:name="com.xchanging.streams.StreamListActivity" 
+            android:label="@string/app_name"
+            android:enabled="true">
+        </activity>
+        
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+                      
+        <provider android:name="com.xchanging.streams.PBProvider"
+			android:authorities="com.xchanging.PBProvider"/>
+        <service android:name="com.xchanging.streams.PBService"></service>
+        
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

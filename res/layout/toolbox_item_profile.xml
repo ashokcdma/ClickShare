@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_margin="20dp">
+
+        <com.xchanging.slidemenu.RoundedImageView
+            android:id="@+id/headImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25.0dip"
+            android:adjustViewBounds="true"
+            android:maxHeight="50dip"
+            android:maxWidth="50dip"
+            android:src="@drawable/head_default_yixin"
+	        android:layout_marginRight="20.0dip"
+    	    />
+        <TextView
+            android:id="@+id/nickNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/headImageView"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10.0dip"
+            android:text="Sean"
+            android:textColor="@color/menu_text"
+            android:textSize="16.0sp"
+            android:paddingLeft="10dp"/>
+        
+      <ImageView
+        android:id="@+id/notification_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/tool_box_fragment_settings_icon" />
+        
+
+</RelativeLayout>

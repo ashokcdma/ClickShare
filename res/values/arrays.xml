@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="albumNames">        
+        <item>Album 1</item>
+        <item>Album 2</item>
+        <item>Album 3</item>
+        <item>Album 4</item>
+        <item>Album 5</item>
+        <item>Album 6</item>
+        <item>Album 7</item>
+    </string-array>
+    <string-array name="albumValues">        
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
